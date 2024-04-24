@@ -1,0 +1,142 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.logo{
+  height: 90px;
+}
+
+*::-webkit-scrollbar {
+  background-image: radial-gradient( circle 325px at 19.2% 64.8%,  rgba(254,62,101,1) 9.7%, rgba(166,24,146,1) 91.3% );
+}
+
+*::-webkit-scrollbar-thumb {
+  background-image: radial-gradient( circle 325px at 19.2% 64.8%,  rgba(254,62,101,1) 9.7%, rgba(166,24,146,1) 91.3% );
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.about-container {
+  padding: 20px;
+}
+
+.about-heading {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 50px;
+  color: white;
+  margin-top: 50px;
+}
+
+.about-container {
+  padding: 20px;
+}
+
+.about-heading {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 50px;
+  color: white;
+  margin-top: 50px;
+}
+
+.about-container {
+  padding: 20px;
+}
+
+.about-heading {
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+  margin-top: 50px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust as needed */
+}
+
+.cards {
+  width: 30%; /* Adjust as needed */
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  color:white
+}
+
+.cards:hover {
+  transform: scale(1.05); /* Adjust as needed */
+}
+
+.cards-image {
+  width: 100%;
+  height: auto;
+}
+
+.cards-content {
+  padding: 20px;
+}
+
+@media (max-width: 1024px) {
+  .cards {
+    width: 48%; /* Adjust as needed */
+  }
+}
+
+@media (max-width: 768px) {
+  .cards {
+    width: 48%; /* Adjust as needed */
+  }
+}
+
+@media (max-width: 480px) {
+  .cards {
+    width: 95%; /* Adjust as needed */
+  }
+}
+
+.card-book {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  gap: 20px;
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.card-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #fff;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+.card-book:hover {
+  transform: scale(1.05); /* Adjust as needed */
+}
+
+.contact-logo {
+  width: 300px;
+  height: auto; /* Adjust the width as needed */
+}
